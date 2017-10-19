@@ -9,4 +9,3 @@ For more information about our ePay solution, please review our [support website
 Guides
 --------------
 * [API Guide](Sections/API%20Guide)
-* [User Guide](Sections/User%20Guide)
