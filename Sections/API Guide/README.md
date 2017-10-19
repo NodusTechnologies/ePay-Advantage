@@ -1,9 +1,8 @@
 API Guide
 ==============
-EPay APIs are organized around Representational State Transfer (**REST**) architecture and are designed to have predictable, resource-oriented URLs and use HTTP response codes to indicate API errors. Below are the API endpoints:
+EPay APIs are organized around Representational State Transfer (**REST**) architecture and are designed to have predictable, resource-oriented URLs and use HTTP response codes to indicate API errors. Below is the API endpoint:
 
-1. Standard Protocol:    ``http://<EPay Site URL>/api``
-2. Secure Protocol:      ``https://<EPay Site URL>/api``
+``http://<EPay Site URL>/api``
 
 Where do I start?
 -----------------
