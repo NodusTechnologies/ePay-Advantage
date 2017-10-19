@@ -37,35 +37,73 @@ EPay sends and receives payloads as structured [JSON Objects](Sections/Objects.m
 Many of these objects are used in both requests and responses. Some of the objects (like Address) are embedded
 as child elements of other objects.
 
-### Transactions
-* [Create a Transaction](Sections/Transactions.md#create-a-transaction)
-* [Update a Transaction](Sections/Transactions.md#update-a-transaction)
-* [Process a Transaction](Sections/Transactions.md#process-a-transaction)
-* [Create and Process a Transaction](Sections/Transactions.md#create-and-process-a-transaction)
-* [Retrieve a Transaction](Sections/Transactions.md#retrieve-a-transaction)
-* [Retrieve Transactions](Sections/Transactions.md#retrieve-transactions)
-* [Cancel (Void) a Transaction](Sections/Transactions.md#referenced-transactions-void-capture-ship-or-credit)
-* [Capture a Pre-Authorized Transaction](Sections/Transactions.md#referenced-transactions-void-capture-ship-or-credit)
-* [Credit a Transaction](Sections/Transactions.md#referenced-transactions-void-capture-ship-or-credit)
-* [Refund a Customer](Sections/Transactions.md#refund-a-customer)
+### Currency
+* [Create a Currency](Sections/Transactions.md#create-a-currency)
+* [Delete a Currency](Sections/Transactions.md#delete-a-currency)
 
-### Wallets / Credit Cards / eChecks
-* [Create a Credit Card / eCheck](Sections/Wallets.md#create-a-credit-card)
-* [Update a Credit Card / eCheck](Sections/Wallets.md#update-a-credit-card--echeck)
-* [Retrieve a Credit Card / eCheck](Sections/Wallets.md#retrieve-a-credit-card--echeck)
-* [Retrieve Credit Cards / eChecks](Sections/Wallets.md#retrieve-credit-cards--echecks)
-* [Lock Credit Card / eCheck](Sections/Wallets.md#lock-credit-card--echeck)
-* [Unlock Credit Card / eCheck](Sections/Wallets.md#unlock-credit-card--echeck)
-* [Remove Credit Card / eCheck](Sections/Wallets.md#remove-credit-card--echeck)
+### Customers
+* [Create a Customer](Sections/Transactions.md#create-a-customer)
+* [Update a Customer](Sections/Transactions.md#update-a-customer)
+* [Retrieve a Customer](Sections/Transactions.md#retrieve-a-customer)
+* [Retrieve Customers](Sections/Transactions.md#retrieve-customers)
 
-### Payment Gateway Profiles
-* [Retrieve a Payment Gateway Profile](Sections/PaymentGatewayProfiles.md#retrieve-a-payment-gateway-profile)
-* [Retrieve Payment Gateway Profiles](Sections/PaymentGatewayProfiles.md#retrieve-payment-gateway-profiles)
+### Customer Addresses
+* [Create a Customer Address](Sections/Transactions.md#create-a-customer-address)
+* [Update a Customer Address](Sections/Transactions.md#update-a-customer-address)
 
-### Addresses
-* [Retrieve a Shipping Address](Sections/Addresses.md#retrieve-a-shipping-address)
-* [Retrieve Shipping Addresses](Sections/Addresses.md#retrieve-shipping-addresses)
+### Document
+* [Submit Document Payment](Sections/Transactions.md#submit-document-payment)
 
+### Invoices
+* [Create an Invoice](Sections/Transactions.md#create-an-invoice)
+* [Update an Invoice](Sections/Transactions.md#update-an-invoice)
+* [Retrieve an Invoice](Sections/Transactions.md#retrieve-an-invoice)
+* [Retrieve Invoices](Sections/Transactions.md#retrieve-invoices)
+
+### Invoice Line Items
+* [Create an Invoice Line Item](Sections/Transactions.md#create-an-invoice-line-item)
+* [Retrieve Invoice Line Items](Sections/Transactions.md#retrieve-invoice-line-items)
+
+### Invoice Payments
+* [Create an Invoice Payment](Sections/Transactions.md#create-an-invoice-payment)
+* [Update an Invoice Payment](Sections/Transactions.md#update-an-invoice-payment)
+* [Retrieve Invoice Payments](Sections/Transactions.md#retrieve-invoice-payments)
+
+### Invoice Template
+* [Create an Invoice Template](Sections/Transactions.md#create-an-invoice-template)
+* [Delete an Invoice Template](Sections/Transactions.md#delete-an-invoice-template)
+
+### Payments
+* [Create a Payment](Sections/Transactions.md#create-a-payment)
+* [Update a Payment](Sections/Transactions.md#update-a-payment)
+* [Retrieve a Payment](Sections/Transactions.md#retrieve-a-payment)
+* [Retrieve Payments](Sections/Transactions.md#retrieve-payments)
+
+### PaymentV1
+* [Retrieve a Payment and Put Document](Sections/Transactions.md#retrieve-a-payment-and-put-document)
+
+### Returns
+* [Create a Return](Sections/Transactions.md#create-a-return)
+* [Update a Return](Sections/Transactions.md#update-a-return)
+
+### Return Line Items
+* [Create a Return Line Item](Sections/Transactions.md#create-a-return-line-item)
+* [Update a Return Line Item](Sections/Transactions.md#update-a-return-line-item)
+
+### SalesPersons
+* [Create a SalesPerson](Sections/Transactions.md#create-a-salesperson)
+* [Delete a SalesPerson](Sections/Transactions.md#delete-a-salesperson)
+
+### Settings
+* [Create a Setting](Sections/Transactions.md#create-a-setting)
+* [Update a Setting](Sections/Transactions.md#update-a-setting)
+
+### Unsubmitted Documents
+* [Retrieve an Unsubmitted Document](Sections/Transactions.md#retrieve-an-unsubmitted-document)
+* [Retrieve Unsubmitted Documents](Sections/Transactions.md#retrieve-unsubmitted-documents)
+
+### Invoice PDFs
+* [Upload an Invoice PDF](Sections/Transactions.md#upload-an-invoice-pdf)
 
 Help us make it better
 ----------------------
