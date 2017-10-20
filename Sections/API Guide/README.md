@@ -37,72 +37,72 @@ Many of these objects are used in both requests and responses. Some of the objec
 as child elements of other objects.
 
 ### Currency
-* [Create a Currency](Sections/Transactions.md#create-a-currency)
-* [Delete a Currency](Sections/Transactions.md#delete-a-currency)
+* [Create a Currency](Sections/Currency.md#create-a-currency)
+* [Delete a Currency](Sections/Currency.md#delete-a-currency)
 
 ### Customers
-* [Create a Customer](Sections/Transactions.md#create-a-customer)
-* [Update a Customer](Sections/Transactions.md#update-a-customer)
-* [Retrieve a Customer](Sections/Transactions.md#retrieve-a-customer)
-* [Retrieve Customers](Sections/Transactions.md#retrieve-customers)
+* [Create a Customer](Sections/Customers.md#create-a-customer)
+* [Update a Customer](Sections/Customers.md#update-a-customer)
+* [Retrieve a Customer](Sections/Customers.md#retrieve-a-customer)
+* [Retrieve Customers](Sections/Customers.md#retrieve-customers)
 
 ### Customer Addresses
-* [Create a Customer Address](Sections/Transactions.md#create-a-customer-address)
-* [Update a Customer Address](Sections/Transactions.md#update-a-customer-address)
+* [Create a Customer Address](Sections/CustomerAddresses.md#create-a-customer-address)
+* [Update a Customer Address](Sections/CustomerAddresses.md#update-a-customer-address)
 
 ### Document
-* [Submit Document Payment](Sections/Transactions.md#submit-document-payment)
+* [Submit Document Payment](Sections/Document.md#submit-document-payment)
 
 ### Invoices
-* [Create an Invoice](Sections/Transactions.md#create-an-invoice)
-* [Update an Invoice](Sections/Transactions.md#update-an-invoice)
-* [Retrieve an Invoice](Sections/Transactions.md#retrieve-an-invoice)
-* [Retrieve Invoices](Sections/Transactions.md#retrieve-invoices)
+* [Create an Invoice](Sections/Invoices.md#create-an-invoice)
+* [Update an Invoice](Sections/Invoices.md#update-an-invoice)
+* [Retrieve an Invoice](Sections/Invoices.md#retrieve-an-invoice)
+* [Retrieve Invoices](Sections/Invoices.md#retrieve-invoices)
 
 ### Invoice Line Items
-* [Create an Invoice Line Item](Sections/Transactions.md#create-an-invoice-line-item)
-* [Retrieve Invoice Line Items](Sections/Transactions.md#retrieve-invoice-line-items)
+* [Create an Invoice Line Item](Sections/InvoiceLineItems.md#create-an-invoice-line-item)
+* [Retrieve Invoice Line Items](Sections/InvoiceLineItems.md#retrieve-invoice-line-items)
 
 ### Invoice Payments
-* [Create an Invoice Payment](Sections/Transactions.md#create-an-invoice-payment)
-* [Update an Invoice Payment](Sections/Transactions.md#update-an-invoice-payment)
-* [Retrieve Invoice Payments](Sections/Transactions.md#retrieve-invoice-payments)
+* [Create an Invoice Payment](Sections/InvoicePayments.md#create-an-invoice-payment)
+* [Update an Invoice Payment](Sections/InvoicePayments.md#update-an-invoice-payment)
+* [Retrieve Invoice Payments](Sections/InvoicePayments.md#retrieve-invoice-payments)
 
 ### Invoice Template
-* [Create an Invoice Template](Sections/Transactions.md#create-an-invoice-template)
-* [Delete an Invoice Template](Sections/Transactions.md#delete-an-invoice-template)
+* [Create an Invoice Template](Sections/InvoiceTemplates.md#create-an-invoice-template)
+* [Delete an Invoice Template](Sections/InvoiceTemplates.md#delete-an-invoice-template)
 
 ### Payments
-* [Create a Payment](Sections/Transactions.md#create-a-payment)
-* [Update a Payment](Sections/Transactions.md#update-a-payment)
-* [Retrieve a Payment](Sections/Transactions.md#retrieve-a-payment)
-* [Retrieve Payments](Sections/Transactions.md#retrieve-payments)
+* [Create a Payment](Sections/Payments.md#create-a-payment)
+* [Update a Payment](Sections/Payments.md#update-a-payment)
+* [Retrieve a Payment](Sections/Payments.md#retrieve-a-payment)
+* [Retrieve Payments](Sections/Payments.md#retrieve-payments)
 
 ### PaymentV1
-* [Retrieve a Payment and Put Document](Sections/Transactions.md#retrieve-a-payment-and-put-document)
+* [Retrieve a Payment and Put Document](Sections/PaymentV1.md#retrieve-a-payment-and-put-document)
 
 ### Returns
-* [Create a Return](Sections/Transactions.md#create-a-return)
-* [Update a Return](Sections/Transactions.md#update-a-return)
+* [Create a Return](Sections/Returns.md#create-a-return)
+* [Update a Return](Sections/Returns.md#update-a-return)
 
 ### Return Line Items
-* [Create a Return Line Item](Sections/Transactions.md#create-a-return-line-item)
-* [Update a Return Line Item](Sections/Transactions.md#update-a-return-line-item)
+* [Create a Return Line Item](Sections/ReturnLineItems.md#create-a-return-line-item)
+* [Update a Return Line Item](Sections/ReturnLineItems.md#update-a-return-line-item)
 
 ### SalesPersons
-* [Create a SalesPerson](Sections/Transactions.md#create-a-salesperson)
-* [Delete a SalesPerson](Sections/Transactions.md#delete-a-salesperson)
+* [Create a SalesPerson](Sections/SalesPersons.md#create-a-salesperson)
+* [Delete a SalesPerson](Sections/SalesPersons.md#delete-a-salesperson)
 
 ### Settings
-* [Create a Setting](Sections/Transactions.md#create-a-setting)
-* [Update a Setting](Sections/Transactions.md#update-a-setting)
+* [Create a Setting](Sections/Settings.md#create-a-setting)
+* [Update a Setting](Sections/Settings.md#update-a-setting)
 
 ### Unsubmitted Documents
-* [Retrieve an Unsubmitted Document](Sections/Transactions.md#retrieve-an-unsubmitted-document)
-* [Retrieve Unsubmitted Documents](Sections/Transactions.md#retrieve-unsubmitted-documents)
+* [Retrieve an Unsubmitted Document](Sections/UnsubmittedDocuments.md#retrieve-an-unsubmitted-document)
+* [Retrieve Unsubmitted Documents](Sections/UnsubmittedDocuments.md#retrieve-unsubmitted-documents)
 
 ### Invoice PDFs
-* [Upload an Invoice PDF](Sections/Transactions.md#upload-an-invoice-pdf)
+* [Upload an Invoice PDF](Sections/InvoicePDFs.md#upload-an-invoice-pdf)
 
 Help us make it better
 ----------------------
