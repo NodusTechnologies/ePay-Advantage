@@ -1,15 +1,15 @@
 API Guide
 ==============
-EPay APIs are organized around Representational State Transfer (**REST**) architecture and are designed to have predictable, resource-oriented URLs and use HTTP response codes to indicate API errors. Below is the API endpoint:
+EPay Advantage APIs are organized around Representational State Transfer (**REST**) architecture and are designed to have predictable, resource-oriented URLs and use HTTP response codes to indicate API errors. Below is the API endpoint:
 
-``http://<EPay Site URL>/api``
+``http://<EPay Advatange Site URL>/api``
 
 Where do I start?
 -----------------
 
-Want to get started with EPay API integration? Here's a quick check list:
+Want to get started with EPay Advantage API integration? Here's a quick check list:
 
-1. Install and configure your own EPay site to be used with the APIs.
+1. Install and configure your own EPay Advantage site to be used with the APIs.
 2. Read up on how to [authenticate](#authentication) with the APIs. 
 3. Read up on how to [handle errors](#handling-exceptions) with the APIs.
 4. Browse the [API docs](#api-documentation) for the API you need to work with, you could also view our [language specific examples](Samples).
@@ -18,7 +18,7 @@ Want to get started with EPay API integration? Here's a quick check list:
 
 Authentication
 --------------
-All EPay API calls need a header containing the authorization token
+All EPay Advantage API calls need a header containing the authorization token
 
 We have a [detailed guide](Sections/Token.md) for authenticating with the EPay API.
 
@@ -32,7 +32,7 @@ We have a [guide](Sections/Errors.md) detailing the meanings of the most common 
 
 API Documentation
 -----------------
-EPay sends and receives payloads as structured [JSON Objects](Sections/Objects.md). 
+EPay Advantage sends and receives payloads as structured [JSON Objects](Sections/Objects.md). 
 Many of these objects are used in both requests and responses. Some of the objects (like Address) are embedded
 as child elements of other objects.
 
