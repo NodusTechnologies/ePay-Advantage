@@ -20,7 +20,7 @@ Authentication
 --------------
 All EPay API calls need a header containing the authorization token
 
-We have a [detailed guide](Sections/Authentication.md) for authenticating with the EPay API.
+We have a [detailed guide](Sections/Token.md) for authenticating with the EPay API.
 
 
 Handling Exceptions
@@ -103,6 +103,7 @@ as child elements of other objects.
 
 ### Invoice PDFs
 * [Upload an Invoice PDF](Sections/InvoicePDFs.md#upload-an-invoice-pdf)
+
 
 Help us make it better
 ----------------------
