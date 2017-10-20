@@ -1,4 +1,4 @@
-ePay
+ePay Advantage
 ==============
 
 Online Bill Pay
