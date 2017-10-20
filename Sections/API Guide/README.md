@@ -47,8 +47,8 @@ as child elements of other objects.
 * [Retrieve Customers](Sections/Customers.md#retrieve-customers)
 
 ### Customer Addresses
-* [Create a Customer Address](Sections/Customer Addresses.md#create-a-customer-address)
-* [Update a Customer Address](Sections/Customer Addresses.md#update-a-customer-address)
+* [Create a Customer Address](Sections/Customer%20Addresses.md#create-a-customer-address)
+* [Update a Customer Address](Sections/Customer%20Addresses.md#update-a-customer-address)
 
 ### Document
 * [Submit Document Payment](Sections/Document.md#submit-document-payment)
@@ -60,17 +60,17 @@ as child elements of other objects.
 * [Retrieve Invoices](Sections/Invoices.md#retrieve-invoices)
 
 ### Invoice Line Items
-* [Create an Invoice Line Item](Sections/Invoice Line Items.md#create-an-invoice-line-item)
-* [Retrieve Invoice Line Items](Sections/Invoice Line Items.md#retrieve-invoice-line-items)
+* [Create an Invoice Line Item](Sections/Invoice%20Line%20Items.md#create-an-invoice-line-item)
+* [Retrieve Invoice Line Items](Sections/Invoice%20Line%20Items.md#retrieve-invoice-line-items)
 
 ### Invoice Payments
-* [Create an Invoice Payment](Sections/Invoice Payments.md#create-an-invoice-payment)
-* [Update an Invoice Payment](Sections/Invoice Payments.md#update-an-invoice-payment)
-* [Retrieve Invoice Payments](Sections/Invoice Payments.md#retrieve-invoice-payments)
+* [Create an Invoice Payment](Sections/Invoice%20Payments.md#create-an-invoice-payment)
+* [Update an Invoice Payment](Sections/Invoice%20Payments.md#update-an-invoice-payment)
+* [Retrieve Invoice Payments](Sections/Invoice%20Payments.md#retrieve-invoice-payments)
 
 ### Invoice Template
-* [Create an Invoice Template](Sections/Invoice Templates.md#create-an-invoice-template)
-* [Delete an Invoice Template](Sections/Invoice Templates.md#delete-an-invoice-template)
+* [Create an Invoice Template](Sections/Invoice%20Templates.md#create-an-invoice-template)
+* [Delete an Invoice Template](Sections/Invoice%20Templates.md#delete-an-invoice-template)
 
 ### Payments
 * [Create a Payment](Sections/Payments.md#create-a-payment)
@@ -86,8 +86,8 @@ as child elements of other objects.
 * [Update a Return](Sections/Returns.md#update-a-return)
 
 ### Return Line Items
-* [Create a Return Line Item](Sections/Return Line Items.md#create-a-return-line-item)
-* [Update a Return Line Item](Sections/Return Line Items.md#update-a-return-line-item)
+* [Create a Return Line Item](Sections/Return%20Line%20Items.md#create-a-return-line-item)
+* [Update a Return Line Item](Sections/Return%20Line%20Items.md#update-a-return-line-item)
 
 ### SalesPersons
 * [Create a SalesPerson](Sections/SalesPersons.md#create-a-salesperson)
@@ -98,8 +98,8 @@ as child elements of other objects.
 * [Update a Setting](Sections/Settings.md#update-a-setting)
 
 ### Unsubmitted Documents
-* [Retrieve an Unsubmitted Document](Sections/Unsubmitted Documents.md#retrieve-an-unsubmitted-document)
-* [Retrieve Unsubmitted Documents](Sections/Unsubmitted Documents.md#retrieve-unsubmitted-documents)
+* [Retrieve an Unsubmitted Document](Sections/Unsubmitted%20Documents.md#retrieve-an-unsubmitted-document)
+* [Retrieve Unsubmitted Documents](Sections/Unsubmitted%20Documents.md#retrieve-unsubmitted-documents)
 
 ### Invoice PDFs
 * [Upload an Invoice PDF](Sections/InvoicePDFs.md#upload-an-invoice-pdf)
