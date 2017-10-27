@@ -78,9 +78,6 @@ as child elements of other objects.
 * [Retrieve a Payment](Sections/APIs/Payments.md#retrieve-a-payment)
 * [Retrieve Payments](Sections/APIs/Payments.md#retrieve-payments)
 
-### PaymentV1
-* [Retrieve a Payment and Put Document](Sections/APIs/PaymentV1.md#retrieve-a-payment-and-put-document)
-
 ### Returns
 * [Create a Return](Sections/APIs/Returns.md#create-a-return)
 * [Update a Return](Sections/APIs/Returns.md#update-a-return)
