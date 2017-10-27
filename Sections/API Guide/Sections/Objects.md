@@ -159,5 +159,136 @@ Invoice line item object represents a line item to be associated to an invoice. 
 | UnitPrice | Decimal | Unit price in the functional currency | decimal(19,2) |
 \*Required
 
+## Invoice Payment
+Invoice payment object represents the application of a payment to an invoice. This will always need to be sent as an array or list. This object may be included as a child attribute of other JSON objects (such as [Payment](#Payment)).
 
+| Attribute | Data Type | Definition | Max Length |
+| :----------- | :--------- | :--------- | :--------- |
+| DocumentSource | String | Source of the document | nvarchar(25) |
+| Identity | Decimal | Invoice number identifier (Optional if using Invoice number) | decimal(19,2) |
+| InvoiceNumber\* | String | Invoice number | nvarchar(30) |
+| OriginatingAmount | Decimal | Payment amount applied to the invoice in the payment currency | decimal(19,2) |
+| PaymentAmount | Decimal | Payment amount applied to the invoice in the functional currency | decimal(19,2) |
+| PaymentNumber\* | String | Payment number | decimal(19,5) |
+\*Required
 
+## Invoice Template
+Invoice template object represents the template to be used for invoices when view them on the EPay Advantage site.
+
+| Attribute | Data Type | Definition | Max Length |
+| :----------- | :--------- | :--------- | :--------- |
+| GroupVars | String | Source of the document | nvarchar(max) |
+| LineItems | String | Line item section | nvarchar(max) |
+| Locked | Boolean | Indicates if the template can be edited | bit |
+| MainBody | String | Main body section | nvarchar(max) |
+| Name\* | String | Invoice template name | nvarchar(100) |
+| Payments | String | Applied payment section | nvarchar(max) |
+\*Required
+
+## Payment
+Payment object represents a payment in the EPay Advantage site.
+
+| Attribute | Data Type | Definition | Max Length |
+| :----------- | :--------- | :--------- | :--------- |
+| Amount | Decimal | Total payment amount in the functional currency  | decimal(19,2) |
+| BalanceAmount | Decimal | Total balance amount in the functional currency | decimal(19,2) |
+| BatchNumber | String | Batch number | nvarchar(25) |
+| CashReceiptType | String | Type of cash receipt | nvarchar(25) |
+| CheckNumber | String | Check number used | nvarchar(4000) |
+| CreatedOn\* | String | Timestamp indicating when this document was created. Format should be "YYYY-MM-DD" or "YYYY-MM-DD HH:mm:ss" | datetime |
+| CurrencyID\* | String | Currency code | nvarchar(25) |
+| CustomerNumber\* | String | Customer ID specified by the client | nvarchar(25) |
+| InvoicePayments | [Object](#Invoice%20Payment) | Invoice payment object |
+| IsVoid | Boolean | Indicates if the payment is voided | bit |
+| OriginatingAmount | Decimal | Total payment amount in the payment currency | decimal(19,2) |
+| OriginatingBalanceAmount | Deciaml | Total balance amount in the payment currency  | decimal(19,2) |
+| PaymentNumber\* | String | Payment number | nvarchar(25) |
+| PaymentType | Int | Payment type (7 = Credit Memo, 8 = Return, 9 = Payment) | int |
+\*Required
+
+## Return
+Return object represnets a return that can be seen in the EPay Advantage site.
+
+| Attribute | Data Type | Definition | Max Length |
+| :----------- | :--------- | :--------- | :--------- |
+| Amount | Decimal | Total invoice amount in the functional currency  | decimal(19,2) |
+| BalanceDue | Decimal | Total balance due in the functional currency | decimal(19,2) |
+| BatchNumber | String | Batch number | nvarchar(25) |
+| BillingAddressName | String | Billing address identifier | nvarchar(25) |
+| Comments | String | Additional comments | nvarchar(4000) |
+| CreatedOn\* | String | Timestamp indicating when this document was created. Format should be "YYYY-MM-DD" or "YYYY-MM-DD HH:mm:ss" | datetime |
+| CurrencyID | String | Currency code | nvarchar(25) |
+| CustomerNumber\* | String | Customer ID specified by the client | nvarchar(25) |
+| Discount | Decimal | Total discount in the functional currency | decimal(19,2) |
+| DocTypeID | String | Document type identifier | nvarchar(50) |
+| DocumentSource | String | Source of the document | nvarchar(25) |
+| DueOn\* | String | Timestamp indicating when this document is due. Format should be "YYYY-MM-DD" or "YYYY-MM-DD HH:mm:ss" | datetime |
+| Freight | Decimal | Total freight in the functional currency | decimal(19,2), not null |
+| invoiceEntries | [Object](#Invoice%20Line%20Item) | User-defined field 2. Developer can store additional data in this field. | nvarchar(255) |
+| InvoiceNumber\* | String | Invoice number | nvarchar(30) |
+| InvoiceType | Int | Invoice type | int, not null |
+| Misc | Decimal | Total miscellaneous amount in the functional currency | decimal(19,2) |
+| ORIGNUMB | String | Original order number | char(21) |
+| ORIGTYPE | Int | Original order type | smallint |
+| OriginatingAmount | Decimal | Total order amount in the invoice currency | decimal(19,2) |
+| OriginatingBalanceDue | Deciaml | Total balance due in the invoice currency  | decimal(19,2) |
+| OriginatingDiscount | Decimal | Total discount in the invoice currency  | decimal(19,2) |
+| OriginatingFreight | Decimal | Total freight in the invoice currency  | decimal(19,2) |
+| OriginatingMisc | Decimal | Total miscellaneous amount in the invoice currency  | decimal(19,2) |
+| OriginatingSubtotal | Decimal | Subtotal in the invoice currency  | decimal(19,2) |
+| OriginatingTax | Decimal | Total tax amount in the invoice currency  | decimal(19,2) |
+| PONumber | String | Purhcase order number | nvarchar(25) |
+| PaymentTerms | String | Payment term | nvarchar(25) |
+| SalesPersonID | String | SalesPerson number | nvarchar(25) |
+| ShipToAddress | [Object](#Address) | Address object |
+| ShippingMethod | String | Shipping method name | varchar(100) |
+| SiteID | String | Ship from site / warehouse | nvarchar(25) |
+| Subtotal | Decimal | Subtotal in the functional currency | decimal(19,2) |
+| Tax | Decimal | Total tax amount in the functional currency | decimal(19,2) |
+| TermDiscounts | [Object](#Term%20Discount) | Term discounts |
+| Tracking_Number | String | Shipping tracking number| char(41) |
+| AgingBucket | Int | Aging bucket number | int |
+\*Required
+
+## Return Line Item
+Return line item object represents the line item on a return that can be seen in the EPay Advantage site. This object may be included as a child attribute of other JSON objects (such as [Return](#Return)).
+
+| Attribute | Data Type | Definition | Max Length |
+| :----------- | :--------- | :--------- | :--------- |
+| Description | String | Description of the item | nvarchar(101) |
+| ExtendedPrice | Decimal | Extended price in the functional currency | decimal(19,2) |
+| InvoiceNumber | String | Invoice number | nvarchar(30) |
+| InvoiceType | Int | Invoice type | int |
+| ItemCode | String | Item code | nvarchar(50) |
+| Markdown | Decimal | Markdown amount in the functional currency | decimal(19,5) |
+| MarkdownPercentage | Decimal | Markdown percentage | decimal(19,5) |
+| NonInventory | Boolean | Indicates if the item is a valid predefined item | bit |
+| OriginatingExtendedPrice | Decimal | Extended price in the invoice currency | decimal(19,2) |
+| OriginatingMarkdown | Decimal | Markdown amount in the invoice currency | decimal(19,5) |
+| OriginatingTaxAmount | Decimal | Tax amount in the invoice currency | decimal(19,2) |
+| OriginatingUnitPrice | Decimal | Unit price in the invoice currency | decimal(19,5) |
+| PriceLevel | String | Price level | varchar(50) |
+| Quantity | Decimal | Number of quantity | decimal(19,2) |
+| ReqShipDate\* | String | Timestamp indicating when this item is required to ship. Format should be "YYYY-MM-DD" or "YYYY-MM-DD HH:mm:ss" | datetime |
+| SalesPersonID | String | SalesPerson number | nvarchar(25) |
+| Sequence | Int | Line item number identifier | int |
+| ShipToAddress | [Object](#Address) | Address object |
+| ShippingMethod | String | Shipping method name | varchar(100) |
+| SiteID | String | Ship from site / warehouse | nvarchar(25) |
+| TaxAmount | Deciaml | Tax amount in the functional currency | decimal(19,2) |
+| Taxable | Boolean | Indicates if the item is taxable | bit |
+| UnitOfMeasure | String | Unit of measure | nvarchar(25) |
+| UnitPrice | Decimal | Unit price in the functional currency | decimal(19,2) |
+\*Required
+
+## SalesPerson
+SalesPerson object represents the salesperson that can be setup in the EPay Advantage site.
+
+| Attribute | Data Type | Definition | Max Length |
+| :----------- | :--------- | :--------- | :--------- |
+| Email | String | Email address | nvarchar(max) |
+| Inactive | String | Line item section | nvarchar(max) |
+| Name | Boolean | Indicates if the template can be edited | bit |
+| SalesPersonID | String | Main body section | nvarchar(max) |
+| SalesTerritoryID | String | Invoice template name | nvarchar(100) |
+\*Required
