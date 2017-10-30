@@ -145,7 +145,7 @@ This request accepts the below query string parameters to add options. You can u
 
 | QueryString | Description | 
 | :------------- | :------------- | 
-| posted | Search for a posted or unposted invoice. Values are defined as `0` for unposted or `1` for posted |
+| posted | Search for a posted or unposted invoice. Values are defined as `false` for unposted or `true` for posted. Default value is `true` |
 | startDate | Search by invoice start date |
 
 ###### Request
