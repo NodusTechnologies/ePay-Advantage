@@ -1,5 +1,5 @@
 ## SalesPerson
-SalesPerson object represents the salesperson that can be setup in the EPay Advantage site.
+SalesPerson object represents the salesperson that can be setup as a Customer Service Representative (CSR) on the EPay Advantage website.
 
 | Attribute | Data Type | Definition | Max Length |
 | :----------- | :--------- | :--------- | :--------- |
