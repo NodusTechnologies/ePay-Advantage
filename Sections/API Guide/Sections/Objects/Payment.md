@@ -11,7 +11,7 @@ Payment object represents a payment in the EPay Advantage site.
 | CreatedOn\* | String | Timestamp indicating when this document was created. Format should be "YYYY-MM-DD" or "YYYY-MM-DD HH:mm:ss" | datetime |
 | CurrencyID\* | String | Currency code | nvarchar(25) |
 | CustomerNumber\* | String | Customer ID specified by the client | nvarchar(25) |
-| InvoicePayments | [Object](#invoice-payment) | Invoice payment object |
+| InvoicePayments | [Object](Invoice%20Payment) | Invoice payment object |
 | IsVoid | Boolean | Indicates if the payment is voided | bit |
 | OriginatingAmount | Decimal | Total payment amount in the payment currency | decimal(19,2) |
 | OriginatingBalanceAmount | Deciaml | Total balance amount in the payment currency  | decimal(19,2) |
