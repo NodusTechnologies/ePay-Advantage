@@ -16,7 +16,7 @@ Return object represnets a return that can be seen in the EPay Advantage site.
 | DocumentSource | String | Source of the document | nvarchar(25) |
 | DueOn\* | String | Timestamp indicating when this document is due. Format should be "YYYY-MM-DD" or "YYYY-MM-DD HH:mm:ss" | datetime |
 | Freight | Decimal | Total freight in the functional currency | decimal(19,2), not null |
-| invoiceEntries | [Object](#return-line-item) | User-defined field 2. Developer can store additional data in this field. | nvarchar(255) |
+| invoiceEntries | [Object](Return%20Line%20Item) | User-defined field 2. Developer can store additional data in this field. | nvarchar(255) |
 | InvoiceNumber\* | String | Invoice number | nvarchar(30) |
 | InvoiceType | Int | Invoice type | int, not null |
 | Misc | Decimal | Total miscellaneous amount in the functional currency | decimal(19,2) |
@@ -32,12 +32,12 @@ Return object represnets a return that can be seen in the EPay Advantage site.
 | PONumber | String | Purhcase order number | nvarchar(25) |
 | PaymentTerms | String | Payment term | nvarchar(25) |
 | SalesPersonID | String | SalesPerson number | nvarchar(25) |
-| ShipToAddress | [Object](#address) | Address object |
+| ShipToAddress | [Object](Address.md) | Address object |
 | ShippingMethod | String | Shipping method name | varchar(100) |
 | SiteID | String | Ship from site / warehouse | nvarchar(25) |
 | Subtotal | Decimal | Subtotal in the functional currency | decimal(19,2) |
 | Tax | Decimal | Total tax amount in the functional currency | decimal(19,2) |
-| TermDiscounts | [Object](#term-discount) | Term discounts |
+| TermDiscounts | [Object](Term%20Discount.md) | Term discounts |
 | Tracking_Number | String | Shipping tracking number| char(41) |
 | AgingBucket | Int | Aging bucket number | int |
 \*Required
