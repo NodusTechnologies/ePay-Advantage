@@ -3,10 +3,10 @@ Customer Addresses
 
 The Customer Address API is used for creating customer addresses on the EPay Advantage website. Please note that all requests require API authentication, see our [guide](Token.md) on how to authenticate.
 
-Create a Customer Address
+Create or Update a Customer Address
 --------------------
 
-* `POST /customeraddress` will create and save an address for a customer to the EPay Advantage website based on the request JSON payload
+* `POST /customeraddress` will create and save an address for a customer to the EPay Advantage website based on the request JSON payload. If updating an address, make sure to send all values again, otherwise, they will be overwritten.
 
 ###### Request
 <pre>
@@ -34,32 +34,6 @@ Create a Customer Address
   "UserDefine1": null,
   "UserDefine2": null,
   "Zip": "12345"
-}
-</pre>
-
-Please note that **bold** fields are required fields, and all others are optional. For more information and descriptions on available fields please see our [object reference](../Objects/Address.md).
-
-###### Response
-<pre>
-{
-  "AdditionalMessage": null,
-  "Message": null,
-  "Result": true
-}
-</pre>
-
-
-Update a Customer Address
---------------------
-
-* `POST /customeraddress` will update an address for a customer to the EPay Advantage website based on the request JSON payload
-
-###### Request
-<pre>
-{
-  <b>"AddressID": "SECONDARY"</b>,
-  <b>"CustomerNumber": "TEST"</b>,
-  "EMailAddress": "TEST2@nodus.com",
 }
 </pre>
 
