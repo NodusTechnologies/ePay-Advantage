@@ -20,7 +20,7 @@ Invoice line item object represents a line item to be associated to an invoice. 
 | ReqShipDate\* | String | Timestamp indicating when this item is required to ship. Format should be "YYYY-MM-DD" or "YYYY-MM-DD HH:mm:ss" | datetime |
 | SalesPersonID | String | SalesPerson number | nvarchar(25) |
 | Sequence | Int | Line item number identifier | int |
-| ShipToAddress | [Object](#address) | Address object |
+| ShipToAddress | [Object](Address.md) | Address object |
 | ShippingMethod | String | Shipping method name | varchar(100) |
 | SiteID | String | Ship from site / warehouse | nvarchar(25) |
 | TaxAmount | Deciaml | Tax amount in the functional currency | decimal(19,2) |
