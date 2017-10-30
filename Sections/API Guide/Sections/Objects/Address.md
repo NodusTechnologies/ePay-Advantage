@@ -1,5 +1,5 @@
 ## Address
-Address object represents the shipping or billing address of a customer. This object may be included as a child attribute of other JSON objects (such as [Customer](#customer)).
+Address object represents the shipping or billing address of a customer. This object may be included as a child attribute of other JSON objects (such as [Customer](Customer.md)).
 
 | Attribute | Data Type | Definition | Max Length |
 | :----------- | :--------- | :--------- | :--------- |
