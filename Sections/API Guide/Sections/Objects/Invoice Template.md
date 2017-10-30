@@ -1,5 +1,5 @@
 ## Invoice Template
-Invoice template object represents the template to be used for invoices when view them on the EPay Advantage site.
+Invoice template object represents the template to be used for invoices when viewing them on the EPay Advantage website.
 
 | Attribute | Data Type | Definition | Max Length |
 | :----------- | :--------- | :--------- | :--------- |
