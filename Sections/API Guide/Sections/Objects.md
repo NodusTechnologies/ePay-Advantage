@@ -2,7 +2,7 @@
 EPay Advantage uses JSON objects to send and receive client data. This is the official reference documentation for JSON objects used in the EPay Advantage REST API.
 
 ## Address
-Address object represents the shipping or billing address of a customer. This object may be included as a child attribute of other JSON objects (such as [Customer](#Customer)).
+Address object represents the shipping or billing address of a customer. This object may be included as a child attribute of other JSON objects (such as [Customer](#customer)).
 
 | Attribute | Data Type | Definition | Max Length |
 | :----------- | :--------- | :--------- | :--------- |
