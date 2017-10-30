@@ -37,6 +37,6 @@ Invoice object represents an invoice to be paid on the EPay Advantage site
 | SiteID | String | Ship from site / warehouse | nvarchar(25) |
 | Subtotal | Decimal | Subtotal in the functional currency | decimal(19,2) |
 | Tax | Decimal | Total tax amount in the functional currency | decimal(19,2) |
-| TermDiscounts | [Object](Term%20discount.md) | Term discounts |
+| TermDiscounts | [Object](Term%20Discount.md) | Term discounts |
 | Tracking_Number | String | Shipping tracking number| char(41) |
 \*Required
