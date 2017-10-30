@@ -1,7 +1,7 @@
 # API JSON Objects
 EPay Advantage uses JSON objects to send and receive client data. This is the official reference documentation for JSON objects used in the EPay Advantage REST API.
 
-[Address](Objects/address.md)
+[Address](Address.md)
 [Currency](#currency)
 [Customer](#customer)
 [Document](#document)
