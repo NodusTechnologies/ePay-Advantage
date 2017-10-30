@@ -1,5 +1,5 @@
 ## Currency
-Currency object represents a valid currency to be used in EPay Advantage. 
+Currency object represents a valid currency to be used in EPay Advantage website. 
 
 | Attribute | Data Type | Definition | Max Length |
 | :----------- | :--------- | :--------- | :--------- |
