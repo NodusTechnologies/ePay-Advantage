@@ -1,5 +1,5 @@
 ## Return
-Return object represnets a return that can be seen in the EPay Advantage site.
+Return object represnets a return that can be viewed on the EPay Advantage website.
 
 | Attribute | Data Type | Definition | Max Length |
 | :----------- | :--------- | :--------- | :--------- |
