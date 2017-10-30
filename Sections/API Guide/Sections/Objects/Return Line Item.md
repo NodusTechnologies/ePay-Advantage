@@ -1,5 +1,5 @@
 ## Return Line Item
-Return line item object represents the line item on a return that can be seen in the EPay Advantage site. This object may be included as a child attribute of other JSON objects (such as [Return](#return)).
+Return line item object represents the line item on a return that can be seen in the EPay Advantage site. This object may be included as a child attribute of other JSON objects (such as [Return](Return.md)).
 
 | Attribute | Data Type | Definition | Max Length |
 | :----------- | :--------- | :--------- | :--------- |
@@ -20,7 +20,7 @@ Return line item object represents the line item on a return that can be seen in
 | ReqShipDate\* | String | Timestamp indicating when this item is required to ship. Format should be "YYYY-MM-DD" or "YYYY-MM-DD HH:mm:ss" | datetime |
 | SalesPersonID | String | SalesPerson number | nvarchar(25) |
 | Sequence | Int | Line item number identifier | int |
-| ShipToAddress | [Object](#address) | Address object |
+| ShipToAddress | [Object](Address.md) | Address object |
 | ShippingMethod | String | Shipping method name | varchar(100) |
 | SiteID | String | Ship from site / warehouse | nvarchar(25) |
 | TaxAmount | Deciaml | Tax amount in the functional currency | decimal(19,2) |
