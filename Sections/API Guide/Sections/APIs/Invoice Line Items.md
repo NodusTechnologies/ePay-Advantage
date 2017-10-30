@@ -127,7 +127,7 @@ This request accepts the below query string parameters to add options. You can u
     "OriginatingUnitPrice": "0.00",
     "PriceLevel": "RETAIL",
     "Quantity": "1",
-    <b>"ReqShipDate": "10/30/2017 2:45:20 PM"</b>,
+    "ReqShipDate": "10/30/2017 2:45:20 PM",
     "SalesPersonID": "SANDRA M.",
     "Sequence": "2",
     "ShipToAddress": {
