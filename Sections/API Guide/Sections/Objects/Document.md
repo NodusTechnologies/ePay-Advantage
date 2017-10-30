@@ -1,5 +1,5 @@
 ## Document
-Document object represents an update to a document to show the document as submitted / completed from EPay Advantage to another system
+Document object represents an update to a document to show the document as submitted / completed from EPay Advantage to another system. This will always need to be sent as an array or list.
 
 | Attribute | Data Type | Definition | Max Length |
 | :----------- | :--------- | :--------- | :--------- |
