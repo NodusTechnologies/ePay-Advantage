@@ -1,5 +1,5 @@
 ## Setting
-Setting object represents a setting that can be changed or inserted into the EPay Advantage site.
+Setting object represents a setting that can be changed or inserted into the EPay Advantage website.
 
 | Attribute | Data Type | Definition | Max Length |
 | :----------- | :--------- | :--------- | :--------- |
