@@ -3,10 +3,10 @@ Customer
 
 The Customer API is used for creating, and viewing customers on the EPay Advantage website. Please note that all requests require API authentication, see our [guide](Token.md) on how to authenticate.
 
-Create a Customer
+Create or Update a Customer
 --------------------
 
-* `POST /customer` will create and save a customer to the EPay Advantage website based on the request JSON payload
+* `POST /customer` will create or update a customer to the EPay Advantage website based on the request JSON payload. If updating a customer, make sure to send all values again, otherwise, they will be overwritten.
 
 ###### Request
 <pre>
@@ -109,31 +109,6 @@ Create a Customer
   "TradeDiscount": "0.00",
   "UserDefine1": null,
   "UserDefine2": null
-}
-</pre>
-
-Please note that **bold** fields are required fields, and all others are optional. For more information and descriptions on available fields please see our [object reference](../Objects/Customer.md).
-
-###### Response
-<pre>
-{
-  "AdditionalMessage": null,
-  "Message": null,
-  "Result": true
-}
-</pre>
-
-
-Update a Customer
---------------------
-
-* `POST /customer` will update a customer on the EPay Advantage website based on the request JSON payload
-
-###### Request
-<pre>
-{
-  <b>"CustomerNumber": "TEST"</b>,
-  "Email": "TEST2@nodus.com"
 }
 </pre>
 
