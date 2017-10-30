@@ -47,3 +47,29 @@ Please note that **bold** fields are required fields, and all others are optiona
   "Result": true
 }
 </pre>
+
+
+Update a Customer Address
+--------------------
+
+* `POST /customeraddress` will update an address for a customer to the EPay Advantage website based on the request JSON payload
+
+###### Request
+<pre>
+{
+  <b>"AddressID": "SECONDARY"</b>,
+  <b>"CustomerNumber": "TEST"</b>,
+  "EMailAddress": "TEST2@nodus.com",
+}
+</pre>
+
+Please note that **bold** fields are required fields, and all others are optional. For more information and descriptions on available fields please see our [object reference](../Objects/Address.md).
+
+###### Response
+<pre>
+{
+  "AdditionalMessage": null,
+  "Message": null,
+  "Result": true
+}
+</pre>
