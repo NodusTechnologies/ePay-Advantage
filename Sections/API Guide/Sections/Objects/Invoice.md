@@ -1,5 +1,5 @@
 ## Invoice
-Invoice object represents an invoice to be paid on the EPay Advantage site
+Invoice object represents an invoice to be paid on the EPay Advantage website.
 
 | Attribute | Data Type | Definition | Max Length |
 | :----------- | :--------- | :--------- | :--------- |
