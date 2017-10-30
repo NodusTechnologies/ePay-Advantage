@@ -46,7 +46,6 @@ as child elements of other objects.
 
 ### Customer Addresses
 * [Create or Update a Customer Address](Sections/APIs/Customer%20Addresses.md#create-or-update-a-customer-address)
-* [Update a Customer Address](Sections/APIs/Customer%20Addresses.md#update-a-customer-address)
 
 ### Document
 * [Submit Document Payment](Sections/APIs/Document.md#submit-document-payment)
