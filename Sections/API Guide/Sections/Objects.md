@@ -103,7 +103,7 @@ Invoice object represents an invoice to be paid on the EPay Advantage site
 | DocumentSource | String | Source of the document | nvarchar(25) |
 | DueOn\* | String | Timestamp indicating when this document is due. Format should be "YYYY-MM-DD" or "YYYY-MM-DD HH:mm:ss" | datetime |
 | Freight | Decimal | Total freight in the functional currency | decimal(19,2), not null |
-| invoiceEntries | [Object](#invoice%20line%20item) | User-defined field 2. Developer can store additional data in this field. | nvarchar(255) |
+| invoiceEntries | [Object](#invoice-line-item) | User-defined field 2. Developer can store additional data in this field. | nvarchar(255) |
 | InvoiceNumber\* | String | Invoice number | nvarchar(30) |
 | InvoiceType | Int | Invoice type | int, not null |
 | Misc | Decimal | Total miscellaneous amount in the functional currency | decimal(19,2) |
@@ -124,7 +124,7 @@ Invoice object represents an invoice to be paid on the EPay Advantage site
 | SiteID | String | Ship from site / warehouse | nvarchar(25) |
 | Subtotal | Decimal | Subtotal in the functional currency | decimal(19,2) |
 | Tax | Decimal | Total tax amount in the functional currency | decimal(19,2) |
-| TermDiscounts | [Object](#term%20discount) | Term discounts |
+| TermDiscounts | [Object](#term-discount) | Term discounts |
 | Tracking_Number | String | Shipping tracking number| char(41) |
 \*Required
 
@@ -198,7 +198,7 @@ Payment object represents a payment in the EPay Advantage site.
 | CreatedOn\* | String | Timestamp indicating when this document was created. Format should be "YYYY-MM-DD" or "YYYY-MM-DD HH:mm:ss" | datetime |
 | CurrencyID\* | String | Currency code | nvarchar(25) |
 | CustomerNumber\* | String | Customer ID specified by the client | nvarchar(25) |
-| InvoicePayments | [Object](#invoice%20payment) | Invoice payment object |
+| InvoicePayments | [Object](#invoice-payment) | Invoice payment object |
 | IsVoid | Boolean | Indicates if the payment is voided | bit |
 | OriginatingAmount | Decimal | Total payment amount in the payment currency | decimal(19,2) |
 | OriginatingBalanceAmount | Deciaml | Total balance amount in the payment currency  | decimal(19,2) |
@@ -224,7 +224,7 @@ Return object represnets a return that can be seen in the EPay Advantage site.
 | DocumentSource | String | Source of the document | nvarchar(25) |
 | DueOn\* | String | Timestamp indicating when this document is due. Format should be "YYYY-MM-DD" or "YYYY-MM-DD HH:mm:ss" | datetime |
 | Freight | Decimal | Total freight in the functional currency | decimal(19,2), not null |
-| invoiceEntries | [Object](#return%20line%20item) | User-defined field 2. Developer can store additional data in this field. | nvarchar(255) |
+| invoiceEntries | [Object](#return-line-item) | User-defined field 2. Developer can store additional data in this field. | nvarchar(255) |
 | InvoiceNumber\* | String | Invoice number | nvarchar(30) |
 | InvoiceType | Int | Invoice type | int, not null |
 | Misc | Decimal | Total miscellaneous amount in the functional currency | decimal(19,2) |
@@ -245,7 +245,7 @@ Return object represnets a return that can be seen in the EPay Advantage site.
 | SiteID | String | Ship from site / warehouse | nvarchar(25) |
 | Subtotal | Decimal | Subtotal in the functional currency | decimal(19,2) |
 | Tax | Decimal | Total tax amount in the functional currency | decimal(19,2) |
-| TermDiscounts | [Object](#term%20discount) | Term discounts |
+| TermDiscounts | [Object](#term-discount) | Term discounts |
 | Tracking_Number | String | Shipping tracking number| char(41) |
 | AgingBucket | Int | Aging bucket number | int |
 \*Required
