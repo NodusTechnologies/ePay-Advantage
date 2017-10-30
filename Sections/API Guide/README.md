@@ -32,7 +32,7 @@ We have a [guide](Sections/Errors.md) detailing the meanings of the most common 
 
 API Documentation
 -----------------
-EPay Advantage sends and receives payloads as structured [JSON Objects](Sections/Objects/README.md). 
+EPay Advantage sends and receives payloads as structured [JSON Objects](Sections/Objects). 
 Many of these objects are used in both requests and responses. Some of the objects (like Address) are embedded
 as child elements of other objects.
 
