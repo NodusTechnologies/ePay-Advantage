@@ -1,5 +1,5 @@
 ## Return Line Item
-Return line item object represents the line item on a return that can be seen in the EPay Advantage site. This will always need to be sent as an array or list. This object may be included as a child attribute of other JSON objects (such as [Return](Return.md)).
+Return line item object represents the line item to be associated to a return. This will always need to be sent as an array or list. This object may be included as a child attribute of other JSON objects (such as [Return](Return.md)).
 
 | Attribute | Data Type | Definition | Max Length |
 | :----------- | :--------- | :--------- | :--------- |
