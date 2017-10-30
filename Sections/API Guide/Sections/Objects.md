@@ -48,7 +48,7 @@ Customer object represents a customer to be invoice and can make payments on the
 
 | Attribute | Data Type | Definition | Max Length |
 | :----------- | :--------- | :--------- | :--------- |
-| BillingAddress | [Object](#Address) | Address object |
+| BillingAddress | [Object](#address) | Address object |
 | ClassID | String | Class associated to a customer | varchar(50) |
 | Comment1 | String | Comment line 1 field | nvarchar(200) |
 | Comment2 | String | Comment line 2 field | nvarchar(25) |
@@ -63,10 +63,10 @@ Customer object represents a customer to be invoice and can make payments on the
 | ParentCustomerNumber | String | Parent customer number | nvarchar(25) |
 | PaymentTerms | String | Payment term | nvarchar(25) |
 | PriceLevel | String | Price level | varchar(50) |
-| PrimaryAddress | [Object](#Address) | Address object |
+| PrimaryAddress | [Object](#address) | Address object |
 | SalesPersonID | String | SalesPerson number | nvarchar(25) |
 | SalesTerritoryID | String | Territory name | nvarchar(25) |
-| ShippingAddress | [Object](#Address) | Address object |
+| ShippingAddress | [Object](#address) | Address object |
 | ShippingMethod | String | Shipping method name | varchar(100) |
 | StatementName | String | Statement name | nvarchar(255) |
 | TaxExempt | Boolean | Indicates if the customer will be charged tax | bit |
@@ -103,7 +103,7 @@ Invoice object represents an invoice to be paid on the EPay Advantage site
 | DocumentSource | String | Source of the document | nvarchar(25) |
 | DueOn\* | String | Timestamp indicating when this document is due. Format should be "YYYY-MM-DD" or "YYYY-MM-DD HH:mm:ss" | datetime |
 | Freight | Decimal | Total freight in the functional currency | decimal(19,2), not null |
-| invoiceEntries | [Object](#Invoice%20Line%20Item) | User-defined field 2. Developer can store additional data in this field. | nvarchar(255) |
+| invoiceEntries | [Object](#invoice%20line%20item) | User-defined field 2. Developer can store additional data in this field. | nvarchar(255) |
 | InvoiceNumber\* | String | Invoice number | nvarchar(30) |
 | InvoiceType | Int | Invoice type | int, not null |
 | Misc | Decimal | Total miscellaneous amount in the functional currency | decimal(19,2) |
@@ -119,17 +119,17 @@ Invoice object represents an invoice to be paid on the EPay Advantage site
 | PONumber | String | Purhcase order number | nvarchar(25) |
 | PaymentTerms | String | Payment term | nvarchar(25) |
 | SalesPersonID | String | SalesPerson number | nvarchar(25) |
-| ShipToAddress | [Object](#Address) | Address object |
+| ShipToAddress | [Object](#address) | Address object |
 | ShippingMethod | String | Shipping method name | varchar(100) |
 | SiteID | String | Ship from site / warehouse | nvarchar(25) |
 | Subtotal | Decimal | Subtotal in the functional currency | decimal(19,2) |
 | Tax | Decimal | Total tax amount in the functional currency | decimal(19,2) |
-| TermDiscounts | [Object](#Term%20Discount) | Term discounts |
+| TermDiscounts | [Object](#term%20discount) | Term discounts |
 | Tracking_Number | String | Shipping tracking number| char(41) |
 \*Required
 
 ## Invoice Line Item
-Invoice line item object represents a line item to be associated to an invoice. This will always need to be sent as an array or list. This object may be included as a child attribute of other JSON objects (such as [Invoice](#Invoice)).
+Invoice line item object represents a line item to be associated to an invoice. This will always need to be sent as an array or list. This object may be included as a child attribute of other JSON objects (such as [Invoice](#invoice)).
 
 | Attribute | Data Type | Definition | Max Length |
 | :----------- | :--------- | :--------- | :--------- |
@@ -150,7 +150,7 @@ Invoice line item object represents a line item to be associated to an invoice. 
 | ReqShipDate\* | String | Timestamp indicating when this item is required to ship. Format should be "YYYY-MM-DD" or "YYYY-MM-DD HH:mm:ss" | datetime |
 | SalesPersonID | String | SalesPerson number | nvarchar(25) |
 | Sequence | Int | Line item number identifier | int |
-| ShipToAddress | [Object](#Address) | Address object |
+| ShipToAddress | [Object](#address) | Address object |
 | ShippingMethod | String | Shipping method name | varchar(100) |
 | SiteID | String | Ship from site / warehouse | nvarchar(25) |
 | TaxAmount | Deciaml | Tax amount in the functional currency | decimal(19,2) |
@@ -160,7 +160,7 @@ Invoice line item object represents a line item to be associated to an invoice. 
 \*Required
 
 ## Invoice Payment
-Invoice payment object represents the application of a payment to an invoice. This will always need to be sent as an array or list. This object may be included as a child attribute of other JSON objects (such as [Payment](#Payment)).
+Invoice payment object represents the application of a payment to an invoice. This will always need to be sent as an array or list. This object may be included as a child attribute of other JSON objects (such as [Payment](#payment)).
 
 | Attribute | Data Type | Definition | Max Length |
 | :----------- | :--------- | :--------- | :--------- |
@@ -198,7 +198,7 @@ Payment object represents a payment in the EPay Advantage site.
 | CreatedOn\* | String | Timestamp indicating when this document was created. Format should be "YYYY-MM-DD" or "YYYY-MM-DD HH:mm:ss" | datetime |
 | CurrencyID\* | String | Currency code | nvarchar(25) |
 | CustomerNumber\* | String | Customer ID specified by the client | nvarchar(25) |
-| InvoicePayments | [Object](#Invoice%20Payment) | Invoice payment object |
+| InvoicePayments | [Object](#invoice%20payment) | Invoice payment object |
 | IsVoid | Boolean | Indicates if the payment is voided | bit |
 | OriginatingAmount | Decimal | Total payment amount in the payment currency | decimal(19,2) |
 | OriginatingBalanceAmount | Deciaml | Total balance amount in the payment currency  | decimal(19,2) |
@@ -224,7 +224,7 @@ Return object represnets a return that can be seen in the EPay Advantage site.
 | DocumentSource | String | Source of the document | nvarchar(25) |
 | DueOn\* | String | Timestamp indicating when this document is due. Format should be "YYYY-MM-DD" or "YYYY-MM-DD HH:mm:ss" | datetime |
 | Freight | Decimal | Total freight in the functional currency | decimal(19,2), not null |
-| invoiceEntries | [Object](#Invoice%20Line%20Item) | User-defined field 2. Developer can store additional data in this field. | nvarchar(255) |
+| invoiceEntries | [Object](#return%20line%20item) | User-defined field 2. Developer can store additional data in this field. | nvarchar(255) |
 | InvoiceNumber\* | String | Invoice number | nvarchar(30) |
 | InvoiceType | Int | Invoice type | int, not null |
 | Misc | Decimal | Total miscellaneous amount in the functional currency | decimal(19,2) |
@@ -240,18 +240,18 @@ Return object represnets a return that can be seen in the EPay Advantage site.
 | PONumber | String | Purhcase order number | nvarchar(25) |
 | PaymentTerms | String | Payment term | nvarchar(25) |
 | SalesPersonID | String | SalesPerson number | nvarchar(25) |
-| ShipToAddress | [Object](#Address) | Address object |
+| ShipToAddress | [Object](#address) | Address object |
 | ShippingMethod | String | Shipping method name | varchar(100) |
 | SiteID | String | Ship from site / warehouse | nvarchar(25) |
 | Subtotal | Decimal | Subtotal in the functional currency | decimal(19,2) |
 | Tax | Decimal | Total tax amount in the functional currency | decimal(19,2) |
-| TermDiscounts | [Object](#Term%20Discount) | Term discounts |
+| TermDiscounts | [Object](#term%20discount) | Term discounts |
 | Tracking_Number | String | Shipping tracking number| char(41) |
 | AgingBucket | Int | Aging bucket number | int |
 \*Required
 
 ## Return Line Item
-Return line item object represents the line item on a return that can be seen in the EPay Advantage site. This object may be included as a child attribute of other JSON objects (such as [Return](#Return)).
+Return line item object represents the line item on a return that can be seen in the EPay Advantage site. This object may be included as a child attribute of other JSON objects (such as [Return](#return)).
 
 | Attribute | Data Type | Definition | Max Length |
 | :----------- | :--------- | :--------- | :--------- |
@@ -272,7 +272,7 @@ Return line item object represents the line item on a return that can be seen in
 | ReqShipDate\* | String | Timestamp indicating when this item is required to ship. Format should be "YYYY-MM-DD" or "YYYY-MM-DD HH:mm:ss" | datetime |
 | SalesPersonID | String | SalesPerson number | nvarchar(25) |
 | Sequence | Int | Line item number identifier | int |
-| ShipToAddress | [Object](#Address) | Address object |
+| ShipToAddress | [Object](#address) | Address object |
 | ShippingMethod | String | Shipping method name | varchar(100) |
 | SiteID | String | Ship from site / warehouse | nvarchar(25) |
 | TaxAmount | Deciaml | Tax amount in the functional currency | decimal(19,2) |
@@ -302,7 +302,7 @@ Setting object represents a setting that can be changed or inserted into the EPa
 \*Required
 
 ## Term Discount
-Term discount object represents a discount to be applied to an invoice if it is paid within the term alloted. This object will be included as a child attribute of other JSON objects (such as [Invoice](#Invoice) and [Return](#Return)).
+Term discount object represents a discount to be applied to an invoice if it is paid within the term alloted. This object will be included as a child attribute of other JSON objects (such as [Invoice](#invoice) and [Return](#return)).
 
 | Attribute | Data Type | Definition | Max Length |
 | :----------- | :--------- | :--------- | :--------- |
