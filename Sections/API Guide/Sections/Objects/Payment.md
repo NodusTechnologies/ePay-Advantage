@@ -1,5 +1,5 @@
 ## Payment
-Payment object represents a payment in the EPay Advantage site.
+Payment object represents a payment on the EPay Advantage website.
 
 | Attribute | Data Type | Definition | Max Length |
 | :----------- | :--------- | :--------- | :--------- |
