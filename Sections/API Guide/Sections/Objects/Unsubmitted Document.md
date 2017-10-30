@@ -1,5 +1,5 @@
 ## Unsubmitted Document
-EPay Advantage returns the unsubmitted document object which represents a document that has not been submitted to another ERP system.
+EPay Advantage returns the unsubmitted document object which represents a document that has not been submitted to another system.
 
 | Attribute | Data Type | Definition | Max Length |
 | :----------- | :--------- | :--------- | :--------- |
