@@ -3,7 +3,7 @@ Customer object represents a customer to be invoice and can make payments on the
 
 | Attribute | Data Type | Definition | Max Length |
 | :----------- | :--------- | :--------- | :--------- |
-| BillingAddress | [Object](#address) | Address object |
+| BillingAddress | [Object](Address.md) | Address object |
 | ClassID | String | Class associated to a customer | varchar(50) |
 | Comment1 | String | Comment line 1 field | nvarchar(200) |
 | Comment2 | String | Comment line 2 field | nvarchar(25) |
@@ -18,10 +18,10 @@ Customer object represents a customer to be invoice and can make payments on the
 | ParentCustomerNumber | String | Parent customer number | nvarchar(25) |
 | PaymentTerms | String | Payment term | nvarchar(25) |
 | PriceLevel | String | Price level | varchar(50) |
-| PrimaryAddress | [Object](#address) | Address object |
+| PrimaryAddress | [Object](Address.md) | Address object |
 | SalesPersonID | String | SalesPerson number | nvarchar(25) |
 | SalesTerritoryID | String | Territory name | nvarchar(25) |
-| ShippingAddress | [Object](#address) | Address object |
+| ShippingAddress | [Object](Address.md) | Address object |
 | ShippingMethod | String | Shipping method name | varchar(100) |
 | StatementName | String | Statement name | nvarchar(255) |
 | TaxExempt | Boolean | Indicates if the customer will be charged tax | bit |
