@@ -41,60 +41,50 @@ as child elements of other objects.
 * [Delete a Currency](Sections/APIs/Currency.md#delete-a-currency)
 
 ### Customers
-* [Create a Customer](Sections/APIs/Customers.md#create-a-customer)
-* [Update a Customer](Sections/APIs/Customers.md#update-a-customer)
+* [Create or Update a Customer](Sections/APIs/Customers.md#create-or-update-a-customer)
 * [Retrieve Customers](Sections/APIs/Customers.md#retrieve-customers)
 
 ### Customer Addresses
-* [Create a Customer Address](Sections/APIs/Customer%20Addresses.md#create-a-customer-address)
+* [Create or Update a Customer Address](Sections/APIs/Customer%20Addresses.md#create-or-update-a-customer-address)
 * [Update a Customer Address](Sections/APIs/Customer%20Addresses.md#update-a-customer-address)
 
 ### Document
 * [Submit Document Payment](Sections/APIs/Document.md#submit-document-payment)
 
 ### Invoices
-* [Create an Invoice](Sections/APIs/Invoices.md#create-an-invoice)
-* [Update an Invoice](Sections/APIs/Invoices.md#update-an-invoice)
-* [Retrieve an Invoice](Sections/APIs/Invoices.md#retrieve-an-invoice)
+* [Create or Update an Invoice](Sections/APIs/Invoices.md#create-or-update-an-invoice)
 * [Retrieve Invoices](Sections/APIs/Invoices.md#retrieve-invoices)
 
 ### Invoice Line Items
-* [Create an Invoice Line Item](Sections/APIs/Invoice%20Line%20Items.md#create-an-invoice-line-item)
+* [Create or Update an Invoice Line Item](Sections/APIs/Invoice%20Line%20Items.md#create-or-update-an-invoice-line-item)
 * [Retrieve Invoice Line Items](Sections/APIs/Invoice%20Line%20Items.md#retrieve-invoice-line-items)
 
 ### Invoice Payments
-* [Create an Invoice Payment](Sections/APIs/Invoice%20Payments.md#create-an-invoice-payment)
-* [Update an Invoice Payment](Sections/APIs/Invoice%20Payments.md#update-an-invoice-payment)
+* [Create or Update an Invoice Payment](Sections/APIs/Invoice%20Payments.md#create-or-update-an-invoice-payment)
 * [Retrieve Invoice Payments](Sections/APIs/Invoice%20Payments.md#retrieve-invoice-payments)
 
 ### Invoice Template
-* [Create an Invoice Template](Sections/APIs/Invoice%20Templates.md#create-an-invoice-template)
+* [Create or Update an Invoice Template](Sections/APIs/Invoice%20Templates.md#create-or-update-an-invoice-template)
 * [Delete an Invoice Template](Sections/APIs/Invoice%20Templates.md#delete-an-invoice-template)
 
 ### Payments
-* [Create a Payment](Sections/APIs/Payments.md#create-a-payment)
-* [Update a Payment](Sections/APIs/Payments.md#update-a-payment)
-* [Retrieve a Payment](Sections/APIs/Payments.md#retrieve-a-payment)
+* [Create or Update a Payment](Sections/APIs/Payments.md#create-or-update-a-payment)
 * [Retrieve Payments](Sections/APIs/Payments.md#retrieve-payments)
 
 ### Returns
-* [Create a Return](Sections/APIs/Returns.md#create-a-return)
-* [Update a Return](Sections/APIs/Returns.md#update-a-return)
+* [Create or Update a Return](Sections/APIs/Returns.md#create-or-update-a-return)
 
 ### Return Line Items
-* [Create a Return Line Item](Sections/APIs/Return%20Line%20Items.md#create-a-return-line-item)
-* [Update a Return Line Item](Sections/APIs/Return%20Line%20Items.md#update-a-return-line-item)
+* [Create or Update a Return Line Item](Sections/APIs/Return%20Line%20Items.md#create-or-update-a-return-line-item)
 
 ### SalesPersons
 * [Create a SalesPerson](Sections/APIs/SalesPersons.md#create-a-salesperson)
 * [Delete a SalesPerson](Sections/APIs/SalesPersons.md#delete-a-salesperson)
 
 ### Settings
-* [Create a Setting](Sections/APIs/Settings.md#create-a-setting)
-* [Update a Setting](Sections/APIs/Settings.md#update-a-setting)
+* [Create or Update a Setting](Sections/APIs/Settings.md#create-or-update-a-setting)
 
 ### Unsubmitted Documents
-* [Retrieve an Unsubmitted Document](Sections/APIs/Unsubmitted%20Documents.md#retrieve-an-unsubmitted-document)
 * [Retrieve Unsubmitted Documents](Sections/APIs/Unsubmitted%20Documents.md#retrieve-unsubmitted-documents)
 
 ### Invoice PDFs
