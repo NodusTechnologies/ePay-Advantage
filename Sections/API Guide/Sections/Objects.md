@@ -286,9 +286,40 @@ SalesPerson object represents the salesperson that can be setup in the EPay Adva
 
 | Attribute | Data Type | Definition | Max Length |
 | :----------- | :--------- | :--------- | :--------- |
-| Email | String | Email address | nvarchar(max) |
-| Inactive | String | Line item section | nvarchar(max) |
-| Name | Boolean | Indicates if the template can be edited | bit |
-| SalesPersonID | String | Main body section | nvarchar(max) |
-| SalesTerritoryID | String | Invoice template name | nvarchar(100) |
+| Email | String | Email address | nvarchar(200) |
+| Inactive | Boolean | Indicates if the salesperson is inactive | bit |
+| Name | String | Salesperson's name | nvarchar(25) |
+| SalesPersonID | String | Salesperson number or ID | nvarchar(25) |
+| SalesTerritoryID | String | Salesperson's territory | nvarchar(25) |
+
+## Setting
+Setting object represents a setting that can be changed or inserted into the EPay Advantage site.
+
+| Attribute | Data Type | Definition | Max Length |
+| :----------- | :--------- | :--------- | :--------- |
+| Name\* | String | Setting name | nvarchar(50) |
+| Value\* | String | Setting value | ntext |
 \*Required
+
+## Term Discount
+Term discount object represents a discount to be applied to an invoice if it is paid within the term alloted. This object will be included as a child attribute of other JSON objects (such as [Invoice](#Invoice) and [Return](#Return)).
+
+| Attribute | Data Type | Definition | Max Length |
+| :----------- | :--------- | :--------- | :--------- |
+| DiscardDate\* | String | Timestamp indicating when this discount should be discarded. Format should be "YYYY-MM-DD" or "YYYY-MM-DD HH:mm:ss" | datetime |
+| DiscountAvaialableAmount | Decimal | Available discount amount | decimal(19,5) |
+\*Required
+
+## Unsubmitted Document
+EPay Advantage returns the unsubmitted document object which represents a document that has not been submitted to another ERP system.
+
+| Attribute | Data Type | Definition | Max Length |
+| :----------- | :--------- | :--------- | :--------- |
+| DocumentDate | String | Timestamp indicating the date of the document. Format should be "YYYY-MM-DD" or "YYYY-MM-DD HH:mm:ss" | datetime |
+| DocumentNumber | String | Document number | nvarchar(50) |
+| DocumentStatus | Int | Document status | int |
+| DocumentType | Int | Document type | int |
+| ErrorMessage | String | Error message | ntext |
+| FailedAttempts | Int | Failed attempts counter | int |
+| LastAttempt | String | Last attempt date | datetime |
+| QueueEntryID | GUID | Document queue entry unique identifier | 36 |
