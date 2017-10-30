@@ -1,5 +1,5 @@
 ## Customer
-Customer object represents a customer to be invoice and can make payments on the EPay Advantage site.
+Customer object represents a customer that can be invoice'd and make payments on the EPay Advantage website.
 
 | Attribute | Data Type | Definition | Max Length |
 | :----------- | :--------- | :--------- | :--------- |
