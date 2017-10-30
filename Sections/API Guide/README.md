@@ -43,7 +43,6 @@ as child elements of other objects.
 ### Customers
 * [Create a Customer](Sections/APIs/Customers.md#create-a-customer)
 * [Update a Customer](Sections/APIs/Customers.md#update-a-customer)
-* [Retrieve a Customer](Sections/APIs/Customers.md#retrieve-a-customer)
 * [Retrieve Customers](Sections/APIs/Customers.md#retrieve-customers)
 
 ### Customer Addresses
