@@ -3,7 +3,7 @@ Document
 
 The Document API is used to show that a document has been submitted from ePay to another system (such as Microsoft Dynamics GP, AX, or another ERP system). Please note that all requests require API authentication, see our [guide](Token.md) on how to authenticate.
 
-Submit a Document
+Submit a Document Payment
 --------------------
 
 * `PUT /document` will update the document's information to show that it has been submitted from the EPay Advantage website based on the request JSON payload
