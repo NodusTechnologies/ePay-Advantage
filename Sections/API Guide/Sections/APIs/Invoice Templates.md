@@ -57,7 +57,7 @@ Delete InvoiceTemplate
 
 ###### Request
 <pre>
-  POST /invoicetemplate?name=TEST
+  DELETE /invoicetemplate?name=TEST
 </pre>
 
 ###### Response
