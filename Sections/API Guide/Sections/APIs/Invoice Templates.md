@@ -28,7 +28,6 @@ This request accepts the below values in the GroupVars variable. This will split
 
 ###### Request
 ```
-<pre>
 {
   "GroupVars": "ShippingName, a.name",
   "LineItems": "<div><span>Line Items</span></div>",
@@ -37,7 +36,6 @@ This request accepts the below values in the GroupVars variable. This will split
   <b>"Name": "TEST"</b>,
   "Payments": "<div><span>Payments</span></div>"
 }
-</pre>
 ```
 
 Please note that **bold** fields are required fields, and all others are optional. For more information and descriptions on available fields please see our [object reference](../Objects/Invioce%20Template.md).
