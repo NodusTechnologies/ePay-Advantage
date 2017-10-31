@@ -27,16 +27,18 @@ This request accepts the below values in the GroupVars variable. This will split
 | a.Country | Country name |
 
 ###### Request
+```
 <pre>
 {
   "GroupVars": "ShippingName, a.name",
-  "LineItems": "<div>Line Items</div>",
+  "LineItems": "<div><span>Line Items</span></div>",
   "Locked": "false",
   "MainBody": "<div><span>Main Body</span><div>[[[LineItemSection]]]</div><div>[[[AppliedPaymentsSection]]]</div></div>",
   <b>"Name": "TEST"</b>,
-  "Payments": "<div>Payments</div>"
+  "Payments": "<div><span>Payments</span></div>"
 }
 </pre>
+```
 
 Please note that **bold** fields are required fields, and all others are optional. For more information and descriptions on available fields please see our [object reference](../Objects/Invioce%20Template.md).
 
