@@ -1,7 +1,7 @@
 Invoices
 ============
 
-The Invoice API is used for creating, updating and viewing invoices on the EPay Advantage website. Please note that all requests require API authentication, see our [guide](Token.md) on how to authenticate.
+The Invoice API is used for creating, updating and viewing invoice header information on the EPay Advantage website. Please note that all requests require API authentication, see our [guide](Token.md) on how to authenticate.
 
 Create or Update an Invoice
 --------------------
@@ -136,7 +136,7 @@ Please note that **bold** fields are required fields, and all others are optiona
 Retrieve Invoices
 --------------------
 
-* `GET /invoice?customerNumber={CustomerNumber}` will get the invoices for a specific customer on the EPay Advantage website based on the URL parameters.
+* `GET /invoice?customerNumber={CustomerNumber}` will get the invoices' header information for a specific customer on the EPay Advantage website based on the URL parameters.
 
 Options
 -------
