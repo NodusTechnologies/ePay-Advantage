@@ -6,12 +6,12 @@ The Unsubmitted Document API is used for viewing unsubmitted document payment in
 Retrieve Unsubmitted Documents
 --------------------
 
-* `GET /UnsubmittedDocument` will get the invoices' header information for a specific customer on the EPay Advantage website based on the URL parameters.
+* `GET /UnsubmittedDocument` will get the payment information on the EPay Advantage website based on the URL parameters.
 
 Options
 -------
 
-This request accepts the below query string parameters to add options. You can use below query parameters by adding them to your request URL by connecting additional ones with a '&'.
+This request accepts the below query string parameters to add additional options to search. You can add them to your request URL by adding a '?' before the first parameter and connecting additional ones with a '&'.
 
 | QueryString | Description | 
 | :------------- | :------------- | 
