@@ -1,12 +1,12 @@
 Payments
 ============
 
-The Payment API is used for creating, updating and viewing payment information on the EPay Advantage website. Please note that all requests require API authentication, see our [guide](Token.md) on how to authenticate.
+The Payment API is used for creating, updating, and viewing payment information on the EPay Advantage website. Please note that all requests require API authentication, see our [guide](Token.md) on how to authenticate.
 
 Create or Update a Payment
 --------------------
 
-* `POST /payment` will create or update a payment on the EPay Advantage website based on the request JSON payload. If updating a payment, make sure to send all values again, otherwise, they will be overwritten.
+* `POST /payment` will create or update a payment on the EPay Advantage website based on the JSON request payload. If updating a payment, make sure to send all values again, otherwise, they will be overwritten.
 
 ###### Request
 <pre>
@@ -50,12 +50,12 @@ Please note that **bold** fields are required fields, and all others are optiona
 Retrieve Payments
 --------------------
 
-* `GET /payment` will get the invoices' header information for a specific customer on the EPay Advantage website based on the URL parameters.
+* `GET /payment` will get the payment information on the EPay Advantage website based on the URL parameters.
 
 Options
 -------
 
-This request accepts the below query string parameters to add options. You can use below query parameters by adding them to your request URL by connecting additional ones with a '&'.
+This request accepts the below query string parameters to add additional options to search. You can add them to your request URL by adding a '?' before the first parameter and connecting additional ones with a '&'.
 
 | QueryString | Description | 
 | :------------- | :------------- | 
