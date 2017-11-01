@@ -1,12 +1,12 @@
 Invoices
 ============
 
-The Invoice API is used for creating, updating and viewing invoice header information on the EPay Advantage website. Please note that all requests require API authentication, see our [guide](Token.md) on how to authenticate.
+The Invoice API is used for creating, updating, and viewing invoice header information on the EPay Advantage website. Please note that all requests require API authentication, see our [guide](Token.md) on how to authenticate.
 
 Create or Update an Invoice
 --------------------
 
-* `POST /invoice` will create or update an invoice on the EPay Advantage website based on the request JSON payload. If updating an invoice, make sure to send all values again, otherwise, they will be overwritten.
+* `POST /invoice` will create or update an invoice on the EPay Advantage website based on the JSON request payload. If updating an invoice, make sure to send all values again, otherwise, they will be overwritten.
 
 ###### Request
 <pre>
@@ -121,7 +121,7 @@ Create or Update an Invoice
 }
 </pre>
 
-Please note that **bold** fields are required fields, and all others are optional. For more information and descriptions on available fields please see our [object reference](../Objects/Currency.md).
+Please note that **bold** fields are required fields, and all others are optional. For more information and descriptions on available fields please see our [object reference](../Objects/Invoice.md).
 
 ###### Response
 <pre>
@@ -136,12 +136,12 @@ Please note that **bold** fields are required fields, and all others are optiona
 Retrieve Invoices
 --------------------
 
-* `GET /invoice?customerNumber={CustomerNumber}` will get the invoices' header information for a specific customer on the EPay Advantage website based on the URL parameters.
+* `GET /invoice?customerNumber={CustomerNumber}` will get the invoices' header information for a specific customer on the EPay Advantage website based on the URL parameters. Please note that invoice line items will not be returned.
 
 Options
 -------
 
-This request accepts the below query string parameters to add options. You can use below query parameters by adding them to your request URL by connecting additional ones with a '&'.
+This request accepts the below query string to add additional options to search. You can add them to your request URL by connecting additional ones with a '&'.
 
 | QueryString | Description | 
 | :------------- | :------------- | 
