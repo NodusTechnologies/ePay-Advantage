@@ -1,17 +1,17 @@
 Invoice Templates
 ============
 
-The Invoice Template API is used for creating, updating and deleting invoice header information on the EPay Advantage website. Please note that all requests require API authentication, see our [guide](Token.md) on how to authenticate.
+The Invoice Template API is used for creating, updating, and deleting invoice header information on the EPay Advantage website. Please note that all requests require API authentication, see our [guide](Token.md) on how to authenticate.
 
 Create or Update an Invoice Template
 --------------------
 
-* `POST /invoicetemplate` will create or update an invoice template on the EPay Advantage website based on the request JSON payload. If updating an invoice template, make sure to send all values again, otherwise, they will be overwritten.
+* `POST /invoicetemplate` will create or update an invoice template on the EPay Advantage website based on the JSON request payload. If updating an invoice template, make sure to send all values again, otherwise, they will be overwritten.
 
 Options for GroupVars
 -------
 
-This request accepts the below values in the GroupVars variable. This will split the invoice template dependent on the values given. For example, if you have two separate line items using two different shipping methods, it will split the invoice to display them separately. You can use below query parameters by adding them to variable by connecting additional ones with a ','.
+This request accepts the below values in the GroupVars variable. This will split the invoice template dependent on the values given. For example, if you have two separate line items using two different shipping methods, it will split the invoice into two sections to display them separately. You can use below query parameters by adding them to the variable by connecting additional ones with a ','.
 
 | QueryString | Description | 
 | :------------- | :------------- | 
