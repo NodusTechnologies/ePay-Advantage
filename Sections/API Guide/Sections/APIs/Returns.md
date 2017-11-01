@@ -1,12 +1,12 @@
 Returns
 ============
 
-The Return API is used for creating and updating return header information on the EPay Advantage website. Please note that all requests require API authentication, see our [guide](Token.md) on how to authenticate.
+The Return API is used for creating, and updating return header information on the EPay Advantage website. Please note that all requests require API authentication, see our [guide](Token.md) on how to authenticate.
 
 Create or Update a Return
 --------------------
 
-* `POST /return` will create or update a return on the EPay Advantage website based on the request JSON payload. If updating a return, make sure to send all values again, otherwise, they will be overwritten.
+* `POST /return` will create or update a return on the EPay Advantage website based on the JSON request payload. If updating a return, make sure to send all values again, otherwise, they will be overwritten.
 
 ###### Request
 <pre>
