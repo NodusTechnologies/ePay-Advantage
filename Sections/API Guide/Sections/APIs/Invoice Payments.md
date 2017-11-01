@@ -1,22 +1,22 @@
 Invoice Payments
 ============
 
-The Invoice Payment API is used for creating, updating and viewing the application of payments to invoices on the EPay Advantage website. Please note that all requests require API authentication, see our [guide](Token.md) on how to authenticate.
+The Invoice Payment API is used for creating, updating, and viewing the application of payments to invoices on the EPay Advantage website. Please note that all requests require API authentication, see our [guide](Token.md) on how to authenticate.
 
 Create or Update an Invoice Payment
 --------------------
 
-* `POST /invoiceLineItem` will create or update a payment for a specific invoice on the EPay Advantage website based on the request JSON payload. If updating an invoice payment, make sure to send all values again, otherwise, they will be overwritten.
+* `POST /invoiceLineItem` will create or update a payment for a specific invoice on the EPay Advantage website based on the JSON request payload. If updating an invoice payment, make sure to send all values again, otherwise, they will be overwritten.
 
 ###### Request
 <pre>
 {
   "DocumentSource": "SOP",
   "Identity": null,
-  "InvoiceNumber": "STDINV999999",
+  <b>"InvoiceNumber": "STDINV999999"</b>,
   "OriginatingAmount": "30.00",
   "PaymentAmount": "1.00",
-  "PaymentNumber": "APIPMT000000001"
+  <b>"PaymentNumber": "APIPMT000000001"</b>
 }
 </pre>
 
