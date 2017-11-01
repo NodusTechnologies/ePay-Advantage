@@ -1,7 +1,7 @@
 Currency
 ============
 
-The Currency API is used for creating, updating and deleting available currencies. Please note that all requests require API authentication, see our [guide](Token.md) on how to authenticate.
+The Currency API is used for creating, updating, and deleting available currencies. Please note that all requests require API authentication, see our [guide](Token.md) on how to authenticate.
 
 Create a Currency
 --------------------
