@@ -6,7 +6,7 @@ The Document API is used to show that a document has been submitted from ePay to
 Submit a Document Payment
 --------------------
 
-* `PUT /document` will update the document's information to show that it has been submitted from the EPay Advantage website based on the request JSON payload
+* `PUT /document` will update the document's information to show that it has been submitted from the EPay Advantage website based on the JSON request payload
 
 ###### Request
 <pre>
