@@ -1,17 +1,17 @@
 Return Line Items
 ============
 
-The Return Line Item API is used for creating, updating and viewing return line items on the EPay Advantage website. Please note that all requests require API authentication, see our [guide](Token.md) on how to authenticate.
+The Return Line Item API is used for creating, updating, and viewing return line items on the EPay Advantage website. Please note that all requests require API authentication, see our [guide](Token.md) on how to authenticate.
 
 Create or Update an Return Line Item
 --------------------
 
-* `POST /returnLineItem` will create or update a line item for a specific return on the EPay Advantage website based on the request JSON payload and URL parameters, both of which are required. If updating an item, make sure to send all values again, otherwise, they will be overwritten.
+* `POST /returnLineItem` will create or update a line item for a specific return on the EPay Advantage website based on the request JSON payload and URL parameters; both of which are required. If updating an item, make sure to send all values again, otherwise, they will be overwritten.
 
 Options
 -------
 
-This request accepts the below query string parameters to add options. You can use below query parameters by adding them to your request URL by adding a '?' before the first parameter and connecting additional ones with a '&'.
+This request accepts the below query string parameters to add additional options to search. You can add them to your request URL by adding a '?' before the first parameter and connecting additional ones with a '&'.
 
 | QueryString | Description | 
 | :------------- | :------------- | 
