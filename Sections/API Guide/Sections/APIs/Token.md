@@ -1,6 +1,6 @@
 EPay Advantage API Authentication
 ============================
-Clients will always need to create a security token to authenticate with the EPay Advantage API. It is recommened to request a token for every API call to avoid any connection issue. However, the token will be valid for 5 minutes. All API calls within that 5 minute timeframe can use the same token. Once it hits the 5 minute mark, it will become invalid and a new token will be needed.
+Clients will always need to create a security token to authenticate with the EPay Advantage API. It is recommened to request a token for every API call to avoid any connection issue. However, the token will be valid for 5 minutes. All API calls made within that 5 minute timeframe can use the same token. Once it hits the 5 minute mark, it will become invalid and a new token will be needed.
 
 ##### Step 1: Get ClientID and Secret from EPay Advantage
 This is located on your EPay Advantage website under Settings > ![Back Office Settings](https://github.com/NodusTechnologies/ePay-Advantage/blob/master/Sections/API%20Guide/Sections/APIs/Images/BackOfficeSettings.png)
