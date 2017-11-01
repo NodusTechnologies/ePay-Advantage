@@ -9,7 +9,7 @@ Upload an Inovice PDF
 * `POST /uploadinvoicepdf?customerNumber={CustomerNumber}&invoiceNumber={InvoiceNumber}&documentDate={DocumentDate}` will upload an invoice PDF to the EPay Advantage website based on the URL parameters. 
 
 ###### Request
-In the request, all values in the URL are required and make sure to attach the file that you wish to upload as either binary data or application/octet-stream.
+In the request, all values in the URL are required. Make sure to attach the file that you wish to upload as either binary data or application/octet-stream.
 
 ###### Response
 <pre>
