@@ -1,12 +1,12 @@
 SalesPersons
 ============
 
-The SalesPerson API is used for creating, updating and deleting salespeople on the EPay Advantage website. Please note that all requests require API authentication, see our [guide](Token.md) on how to authenticate.
+The SalesPerson API is used for creating, updating, and deleting salespeople on the EPay Advantage website. Please note that all requests require API authentication, see our [guide](Token.md) on how to authenticate.
 
 Create or Update a SalesPerson
 --------------------
 
-* `POST /salesperson` will create or update a salesperson on the EPay Advantage website based on the request JSON payload. If updating an salesperson, make sure to send all values again, otherwise, they will be overwritten.
+* `POST /salesperson` will create or update a salesperson on the EPay Advantage website based on the JSON request payload. If updating an salesperson, make sure to send all values again, otherwise, they will be overwritten.
 
 ###### Request
 <pre>
