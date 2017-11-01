@@ -6,7 +6,7 @@ The Customer Address API is used for creating, and updating customer addresses o
 Create or Update a Customer Address
 --------------------
 
-* `POST /customeraddress` will create and save an address for a customer to the EPay Advantage website based on the request JSON payload. If updating an address, make sure to send all values again, otherwise, they will be overwritten.
+* `POST /customeraddress` will create and save an address for a customer to the EPay Advantage website based on the JSON request payload. If updating an address, make sure to send all values again, otherwise, they will be overwritten.
 
 ###### Request
 <pre>
