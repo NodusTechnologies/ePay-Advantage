@@ -6,7 +6,7 @@ The Currency API is used for creating, updating, and deleting available currenci
 Create a Currency
 --------------------
 
-* `POST /currency` will create and save a currency to the EPay Advantage website based on the request JSON payload
+* `POST /currency` will create and save a currency to the EPay Advantage website based on the JSON request payload
 
 ###### Request
 <pre>
