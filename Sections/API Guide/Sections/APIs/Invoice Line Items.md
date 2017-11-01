@@ -1,12 +1,12 @@
 Invoice Line Items
 ============
 
-The Invoice Line Item API is used for creating, updating and viewing invoice line items on the EPay Advantage website. Please note that all requests require API authentication, see our [guide](Token.md) on how to authenticate.
+The Invoice Line Item API is used for creating, updating, and viewing invoice line items on the EPay Advantage website. Please note that all requests require API authentication, see our [guide](Token.md) on how to authenticate.
 
 Create or Update an Invoice Line Item
 --------------------
 
-* `POST /invoiceLineItem` will create or update a line item for a specific invoice on the EPay Advantage website based on the request JSON payload and URL parameters, both of which are required. If updating an item, make sure to send all values again, otherwise, they will be overwritten.
+* `POST /invoiceLineItem` will create or update a line item for a specific invoice on the EPay Advantage website based on the JSON request payload and URL parameters; both of which are required. If updating an item, make sure to send all values again, otherwise, they will be overwritten.
 
 Options
 -------
@@ -77,7 +77,7 @@ This request accepts the below query string parameters to add options. You can u
 ]
 </pre>
 
-Please note that **bold** fields are required fields, and all others are optional. For more information and descriptions on available fields please see our [object reference](../Objects/Currency.md).
+Please note that **bold** fields are required fields, and all others are optional. For more information and descriptions on available fields please see our [object reference](../Objects/Invoice%20Line%20Item.md).
 
 ###### Response
 <pre>
