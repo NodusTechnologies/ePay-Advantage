@@ -1,7 +1,7 @@
 Customer
 ============
 
-The Customer API is used for creating, and viewing customers on the EPay Advantage website. Please note that all requests require API authentication, see our [guide](Token.md) on how to authenticate.
+The Customer API is used for creating, updating, and viewing customers on the EPay Advantage website. Please note that all requests require API authentication, see our [guide](Token.md) on how to authenticate.
 
 Create or Update a Customer
 --------------------
@@ -132,7 +132,7 @@ Retrieve Customers
 Options
 -------
 
-This request accepts the below query string parameters to add options. You can use below query parameters by adding them to your request URL by adding a '?' before the first parameter and connecting additional ones with a '&'.
+This request accepts the below query string parameters to add additional options to search. You can add them to your request URL by adding a '?' before the first parameter and connecting additional ones with a '&'.
 
 | QueryString | Description | 
 | :------------- | :------------- | 
