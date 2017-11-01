@@ -6,7 +6,7 @@ The Customer API is used for creating, updating, and viewing customers on the EP
 Create or Update a Customer
 --------------------
 
-* `POST /customer` will create or update a customer to the EPay Advantage website based on the request JSON payload. If updating a customer, make sure to send all values again, otherwise, they will be overwritten.
+* `POST /customer` will create or update a customer to the EPay Advantage website based on the JSON request payload. If updating a customer, make sure to send all values again, otherwise, they will be overwritten.
 
 ###### Request
 <pre>
