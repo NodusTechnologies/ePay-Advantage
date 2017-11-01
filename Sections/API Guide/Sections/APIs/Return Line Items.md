@@ -6,7 +6,7 @@ The Return Line Item API is used for creating, updating, and viewing return line
 Create or Update an Return Line Item
 --------------------
 
-* `POST /returnLineItem` will create or update a line item for a specific return on the EPay Advantage website based on the request JSON payload and URL parameters; both of which are required. If updating an item, make sure to send all values again, otherwise, they will be overwritten.
+* `POST /returnLineItem` will create or update a line item for a specific return on the EPay Advantage website based on the JSON request payload and URL parameters; both of which are required. If updating an item, make sure to send all values again, otherwise, they will be overwritten.
 
 Options
 -------
