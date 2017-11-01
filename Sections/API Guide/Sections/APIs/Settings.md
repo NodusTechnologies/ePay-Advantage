@@ -1,12 +1,12 @@
 Settings
 ============
 
-The Settings API is used for creating and updating settings on the EPay Advantage website. Please note that all requests require API authentication, see our [guide](Token.md) on how to authenticate.
+The Settings API is used for creating, and updating settings on the EPay Advantage website. Please note that all requests require API authentication, see our [guide](Token.md) on how to authenticate.
 
 Create or Update an Invoice
 --------------------
 
-* `POST /setting` will create or update a setting on the EPay Advantage website based on the request JSON payload. If updating a setting, make sure to send all values again, otherwise, they will be overwritten.
+* `POST /setting` will create or update a setting on the EPay Advantage website based on the JSON request payload. If updating a setting, make sure to send all values again, otherwise, they will be overwritten.
 
 ###### Request
 <pre>
