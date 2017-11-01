@@ -1,7 +1,7 @@
 Customer Addresses
 ============
 
-The Customer Address API is used for creating and updating customer addresses on the EPay Advantage website. Please note that all requests require API authentication, see our [guide](Token.md) on how to authenticate.
+The Customer Address API is used for creating, and updating customer addresses on the EPay Advantage website. Please note that all requests require API authentication, see our [guide](Token.md) on how to authenticate.
 
 Create or Update a Customer Address
 --------------------
