@@ -11,7 +11,7 @@ Create a Currency
 ###### Request
 <pre>
 {
-  <b>"CurrencyID**": "USD"</b>,
+  <b>"CurrencyID": "USD"</b>,
   "CurrencyIndex": "1234",
   "Description": "USD Currency",
   "IsFuncCurrency": 0,
