@@ -87,7 +87,7 @@ as child elements of other objects.
 * [Retrieve Unsubmitted Documents](Sections/APIs/Unsubmitted%20Documents.md#retrieve-unsubmitted-documents)
 
 ### Invoice PDFs
-* [Upload an Invoice PDF](Sections/APIs/InvoicePDFs.md#upload-an-invoice-pdf)
+* [Upload an Invoice PDF](Sections/APIs/Invoice%20PDFs.md#upload-an-invoice-pdf)
 
 
 Help us make it better
