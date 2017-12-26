@@ -6,7 +6,7 @@ The Invoice Payment API is used for creating, updating, and viewing the applicat
 Create or Update an Invoice Payment
 --------------------
 
-* `POST /invoiceLineItem` will create or update a payment for a specific invoice on the EPay Advantage website based on the JSON request payload. If updating an invoice payment, make sure to send all values again, otherwise, they will be overwritten.
+* `POST /invoicePayment` will create or update a payment for a specific invoice on the EPay Advantage website based on the JSON request payload. If updating an invoice payment, make sure to send all values again, otherwise, they will be overwritten.
 
 ###### Request
 <pre>
