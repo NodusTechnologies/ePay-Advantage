@@ -14,7 +14,7 @@ Submit a Document Payment
   {
     "ErrorMessage": null,
     "Id": "444202FD-A95A-46C6-9667-5F58134923D5",
-    "IsSubmitted": "true"
+    "IsSubmited": "true"
   }
 ]
 </pre>
