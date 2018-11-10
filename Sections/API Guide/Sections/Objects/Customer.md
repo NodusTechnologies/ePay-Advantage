@@ -16,6 +16,7 @@ Customer object represents a customer that can be invoice'd and make payments on
 | Name | String | Customer name | nvarchar(65) |
 | OnHold | Boolean | Indicates if the customer should be marked as on hold | bit |
 | ParentCustomerNumber | String | Parent customer number | nvarchar(25) |
+| PaymentMethod | String | Available payment method the customer can use. Available values are 'All', 'CC', 'eCheck' and 'None' | nvarchar(25) |
 | PaymentTerms | String | Payment term | nvarchar(25) |
 | PriceLevel | String | Price level | varchar(50) |
 | PrimaryAddress | [Object](Address.md) | Address object |

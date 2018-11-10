@@ -48,6 +48,7 @@ Create or Update a Customer
   "Name": "Test User",
   "OnHold": "0",
   "ParentCustomerNumber": "TEST",
+  "PaymentMethod": "All",
   "PaymentTerms": null,
   "PriceLevel": null,
   "PrimaryAddress": {
@@ -186,6 +187,7 @@ This request accepts the below query string parameters to add additional options
     "OnHold": false,
     "ParentCustomerNumber": "COMPUTEC0001",
     "Password": null,
+	"PaymentMethod": "All",
     "PaymentTerms": "Net 30",
     "PriceLevel": "",
     "PrimaryAddress": {

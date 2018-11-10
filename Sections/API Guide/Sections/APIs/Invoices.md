@@ -147,6 +147,9 @@ This request accepts the below query string to add additional options to search.
 | :------------- | :------------- | 
 | posted | Search for a posted or unposted invoice. Values are defined as `false` for unposted or `true` for posted. Default value is `true` |
 | startDate | Search by invoice start date |
+| status | Search by the status of invoices. Allowed values are 'Outstanding' and 'PastDue' |
+| invoiceNumber | Search by a specific invoice number |
+| identity | Search by a specific identity |
 
 ###### Request
 <pre>
