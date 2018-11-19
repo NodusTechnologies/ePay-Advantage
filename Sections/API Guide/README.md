@@ -36,6 +36,9 @@ EPay Advantage sends and receives payloads as structured [JSON Objects](Sections
 Many of these objects are used in both requests and responses. Some of the objects (like Address) are embedded
 as child elements of other objects.
 
+### Autopay
+* [Create an Autopay Contract](Sections/APIs/Autopay.md#create-or-update-an-autopay-contract)
+
 ### Currency
 * [Create a Currency](Sections/APIs/Currency.md#create-a-currency)
 * [Delete a Currency](Sections/APIs/Currency.md#delete-a-currency)
