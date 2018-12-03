@@ -153,7 +153,7 @@ This request accepts the below query string to add additional options to search.
 
 ###### Request
 <pre>
-  POST /invoice?customerNumber=TEST
+  GET /invoice?customerNumber=TEST
 </pre>
 
 ###### Response
