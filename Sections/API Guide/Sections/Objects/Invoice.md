@@ -15,8 +15,9 @@ Invoice object represents an invoice to be paid on the EPay Advantage website.
 | DocTypeID | String | Document type identifier | nvarchar(50) |
 | DocumentSource | String | Source of the document | nvarchar(25) |
 | DueOn\* | String | Timestamp indicating when this document is due. Format should be "YYYY-MM-DD" or "YYYY-MM-DD HH:mm:ss" | datetime |
+| ExtensionData | String | Extra data to be included with invoice templates. The format should be in xml. More information can be found in the [Invoice Template Guide](http://www.nodus.com/documentation/ePay-Invoice-Template-Guide-v2.pdf) | nvarchar(max) |
 | Freight | Decimal | Total freight in the functional currency | decimal(19,2), not null |
-| invoiceEntries | [Object](Invoice%20Line%20Item.md) | User-defined field 2. Developer can store additional data in this field. | nvarchar(255) |
+| invoiceEntries | [Object](Invoice%20Line%20Item.md) | Invoice line item objects associated to the invoice | nvarchar(255) |
 | InvoiceNumber\* | String | Invoice number | nvarchar(30) |
 | InvoiceType | Int | Invoice type | int, not null |
 | Misc | Decimal | Total miscellaneous amount in the functional currency | decimal(19,2) |
