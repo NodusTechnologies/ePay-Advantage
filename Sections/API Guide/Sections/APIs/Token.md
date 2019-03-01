@@ -13,7 +13,7 @@ In the header for authorization, combine "Basic" with the base64 value
 
 ```shell
 curl -X POST \
-  http://epaypayfabric.supvpc7.nodus.com/6.0.1.022/API/Token \
+  http://<EPay Advatange Site URL>/api \
   -H 'Authorization: Basic Y2xpZW50X2xxTTg0OXdSODhZM3hxZlJrWnByOmhKcTF4WldzdEgwdjNzbHdzQVBuenFBc2xiNkhzeXVtY3RDS1pRWm1ZL0M3NWRpRzR2' \
   -H 'content-type: application/x-www-form-urlencoded' \
   -d 'scope=EPayAPIServices&grant_type=client_credentials'
@@ -34,6 +34,6 @@ In the header for authorization, combine "Bearer" with the access token from the
 
 ```shell
 curl -X GET \
-  http://epaypayfabric.supvpc7.nodus.com/6.0.1.022/API/payment?status=1 \
+  http://<EPay Advatange Site URL>/api/payment?status=1 \
   -H 'Authorization: Bearer gAAAAJ60bU6-vW9_mcmGXz6BOjjBI8MSmjqg4OZHQcHr9xjTA-0ZL2bia2o_b6WYcD9YSoM4uARinCWN_nLuHoeF8uxvxtw2rNIl0RBDbvcQaofDpd9SuyzmVX3Xy9b0Yx7ngB81S3zjusrtgFnrUEThB4rhnMmeoVy1TQ7ePAKQVVQqFAEAAIAAAABJC95XyaM28bsDcbMZKY8faxCDo8spdvs1Debhq6nnqom25IcVzV2Jor0zze3NNAHMkvd8lOA_SEwFleWCTxCdED_PhjB19I3DE5tc3UTx6091lFtDngkAuHG4b7tcMud0Cxe9nv7bZ6l-RuP0ODDZeMjf99wd4m5mHKDeoz_hHc9tk3HUSp90fR-23iXNpYWBeNx-gEH-WyNjxFuw7nAywYZmDmdyGa1flVuD7M1rUwnG1QI3iEZ30TKDw7lcqycccksKADPPrGWX80hlAdAEZGDWCSTnjbzunmycASvyz_OJtj2gAt8DcRF7hLQmMxENLluYfMwqleOmOmiaCo1jBKk0f9BILb5k7gv2sxPj2Q' \
 ```
